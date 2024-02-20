@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureCollector", "CreatureCollector.csproj", "{DA447645-34A7-49DF-9952-F0F73E508958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA447645-34A7-49DF-9952-F0F73E508958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA447645-34A7-49DF-9952-F0F73E508958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA447645-34A7-49DF-9952-F0F73E508958}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{DA447645-34A7-49DF-9952-F0F73E508958}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{DA447645-34A7-49DF-9952-F0F73E508958}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{DA447645-34A7-49DF-9952-F0F73E508958}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

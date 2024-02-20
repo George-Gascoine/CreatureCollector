@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3 uid="uid://m1tebcipgxbk"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/Managers/GameManager.cs" id="1_duy6k"]
+[ext_resource type="PackedScene" uid="uid://3gt2a7g0q1t7" path="res://Assets/Scenes/Creature.tscn" id="2_7tfnb"]
+[ext_resource type="JSON" path="res://Assets/Data/Creatures.json" id="2_ufilq"]
+
+[node name="GameManager" type="Node2D"]
+script = ExtResource("1_duy6k")
+baseCreature = ExtResource("2_7tfnb")
+creatureJSON = ExtResource("2_ufilq")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://m4urc8wiw7w6"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/Egg/Egg.cs" id="1_2no1m"]
+
+[node name="Egg" type="Node2D"]
+script = ExtResource("1_2no1m")

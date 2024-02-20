@@ -1,0 +1,89 @@
+[gd_scene load_steps=4 format=3 uid="uid://cj2kd1qhdokg"]
+
+[ext_resource type="Texture2D" uid="uid://dl3cvkqedp0y0" path="res://Assets/Sprites/Biome/Bush.png" id="1_85c3v"]
+[ext_resource type="Script" path="res://Assets/Scripts/Managers/Biome.cs" id="1_vctp8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4hr26"]
+
+[node name="Biome" type="Node2D"]
+script = ExtResource("1_vctp8")
+
+[node name="Forest" type="Sprite2D" parent="."]
+position = Vector2(72, 79)
+texture = ExtResource("1_85c3v")
+
+[node name="Area2D" type="Area2D" parent="Forest"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Forest/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Forest2" type="Sprite2D" parent="."]
+position = Vector2(99, 84)
+texture = ExtResource("1_85c3v")
+
+[node name="Area2D" type="Area2D" parent="Forest2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Forest2/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Forest3" type="Sprite2D" parent="."]
+position = Vector2(84, 93)
+texture = ExtResource("1_85c3v")
+
+[node name="Area2D" type="Area2D" parent="Forest3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Forest3/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Forest4" type="Sprite2D" parent="."]
+position = Vector2(70, 98)
+texture = ExtResource("1_85c3v")
+
+[node name="Area2D" type="Area2D" parent="Forest4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Forest4/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Forest5" type="Sprite2D" parent="."]
+position = Vector2(106, 102)
+texture = ExtResource("1_85c3v")
+
+[node name="Area2D" type="Area2D" parent="Forest5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Forest5/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Lake" type="Sprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="Lake"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lake/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Ice" type="Sprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="Ice"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ice/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Campfire" type="Sprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="Campfire"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Campfire/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Air" type="Sprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="Air"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Air/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")
+
+[node name="Rock" type="Sprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="Rock"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Rock/Area2D"]
+shape = SubResource("RectangleShape2D_4hr26")

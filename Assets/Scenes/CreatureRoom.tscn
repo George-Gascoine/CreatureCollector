@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwq5vki675p17"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/Creature/CreatureRoom.cs" id="1_4n8jx"]
+
+[node name="CreatureRoom" type="Node2D"]
+script = ExtResource("1_4n8jx")
